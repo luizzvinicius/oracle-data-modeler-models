@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagem_apartamento" id="2668F88B-886F-ADE8-3142-2FB5FC90AA56" version="3.5">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-13 19:59:47 UTC</createdTime>
+<ownerDesignName>modelagem_apartamento</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2668F88B-886F-ADE8-3142-2FB5FC90AA56</designId>
+</OSDM_Design>

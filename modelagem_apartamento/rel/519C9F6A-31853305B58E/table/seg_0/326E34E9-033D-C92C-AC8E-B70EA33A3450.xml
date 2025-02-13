@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="326E34E9-033D-C92C-AC8E-B70EA33A3450" name="TB_PROPRIETARIO">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-13 20:22:37 UTC</createdTime>
+<ownerDesignName>modelagem_apartamento</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="13C714D2-A2AE-8C26-70A7-B47F9347018A">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-13 20:26:19 UTC</createdTime>
+<ownerDesignName>modelagem_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF33CB2E-422B-0FA2-4EC0-70B1D336D983" name="TB_PROPRIETARIO_PK">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-13 20:26:19 UTC</createdTime>
+<ownerDesignName>modelagem_apartamento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13C714D2-A2AE-8C26-70A7-B47F9347018A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
