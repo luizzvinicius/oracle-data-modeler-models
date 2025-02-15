@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="66ACC648-0F1A-C3A6-2F90-197158D1A759" mainViewID="610163D4-E6D5-20A5-13C6-C0D3D69842B6">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3A0C1E36-49BA-0CB0-B103-83A176C2E683" mainViewID="2C5C36B3-DF9F-2E62-D87B-E6AD0295BA2D">
 <createdBy>vinic</createdBy>
-<createdTime>2025-02-13 19:59:47 UTC</createdTime>
+<createdTime>2025-02-15 13:30:19 UTC</createdTime>
 <ownerDesignName>modelagem_apartamento</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>
