@@ -23,6 +23,7 @@
 <Column name="category" id="B0C44FC7-7535-DC19-E073-50E513FA1962">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:44:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[categoria é carro ou moto]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

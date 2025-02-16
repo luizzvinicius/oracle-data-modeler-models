@@ -11,6 +11,7 @@
 <Column name="bloco" id="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:00:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[status é um enum ativo/inativo]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
