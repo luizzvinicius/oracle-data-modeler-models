@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74B434C5-542E-33CE-03E6-2BF9B66ACEDF" name="vechicle">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74B434C5-542E-33CE-03E6-2BF9B66ACEDF" name="vehicle">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:41:40 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -18,7 +18,7 @@
 <dataTypeSize>7 BYTE</dataTypeSize>
 <ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_plate</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_plate</notNullConstraintName>
 </Column>
 <Column name="category" id="B0C44FC7-7535-DC19-E073-50E513FA1962">
 <createdBy>vinic</createdBy>
@@ -31,7 +31,7 @@
 <dataTypeSize>5 BYTE</dataTypeSize>
 <ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_category</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_category</notNullConstraintName>
 </Column>
 <Column name="color" id="59DEA860-95DC-7461-1F9B-DC5E6B4D514B">
 <createdBy>vinic</createdBy>
@@ -43,7 +43,7 @@
 <dataTypeSize>15 BYTE</dataTypeSize>
 <ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_color</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_color</notNullConstraintName>
 </Column>
 <Column name="model" id="32B8DFFD-B41B-A7A8-A83C-A05DBD20464B">
 <createdBy>vinic</createdBy>
@@ -55,7 +55,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_model</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_model</notNullConstraintName>
 </Column>
 <Column name="note" id="7930D290-F184-A682-C766-41E08BE1AA62">
 <createdBy>vinic</createdBy>
@@ -67,7 +67,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_note</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_note</notNullConstraintName>
 </Column>
 <Column name="created_at" id="A11C4F79-7E19-39F7-B8C3-58F863DE1DEC">
 <createdBy>vinic</createdBy>
@@ -78,7 +78,7 @@
 <domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_vechicle_created_at</notNullConstraintName>
+<notNullConstraintName>NNC_vehicle_created_at</notNullConstraintName>
 </Column>
 <Column name="Apartament_bloco" id="44EC0019-83B5-9B47-0233-3050C2E374B3">
 <createdBy>vinic</createdBy>
@@ -91,6 +91,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_vehicle_Apartament_bloco</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="B7F74842-4F67-19B0-F2B9-1D32D88DE31D" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
 </associations>
@@ -106,13 +107,25 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_vehicle_Apartament_num_apto</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="B7F74842-4F67-19B0-F2B9-1D32D88DE31D" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </associations>
 </Column>
+<Column name="Column_9" id="EC29F6DF-1834-9F97-32E9-E7B7FED91C99">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-16 14:47:03 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="903CD642-7250-2DF0-8937-385433C04975" name="vechicle_PK">
+<ind_PK_UK id="903CD642-7250-2DF0-8937-385433C04975" name="vehicle_PK">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:44:01 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -123,7 +136,7 @@
 <colUsage columnID="65C8C0A2-A801-11E8-8F52-383A39A92298"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD5C708B-BB78-9491-8E10-8FAB2FE475C3" name="Apartament_vechicle_FK">
+<ind_PK_UK id="FD5C708B-BB78-9491-8E10-8FAB2FE475C3" name="Apartament_vehicle_FK">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:20:05 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
