@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="361700F4-E176-8A10-B39D-F49F21AEC375" mainViewID="3D11AE72-0279-B275-10C5-0627CAEB316A">
-<createdBy>vinic</createdBy>
-<createdTime>2025-02-15 14:01:02 UTC</createdTime>
-<ownerDesignName>modelagem_apartamento</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
-</relationalModel>

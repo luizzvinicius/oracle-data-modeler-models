@@ -3,7 +3,7 @@
 	<logical_type_for_domain_presentation value="false" />
 	<automatic_pk_generation value="false" />
 	<automatic_uk_generation value="false" />
-	<automatic_fk_generation value="true" />
+	<automatic_fk_generation value="false" />
 	<preserve_ddl_generation_options value="false" />
 	<use_global_design_level_settings value="false" />
 	<use_preferred_classification_types value="false" />
@@ -276,19 +276,19 @@
 			</domain>
 		</domains>
 		<constraints>
-			<pk value="PK_{table}"/>
-			<fk value="FK_{parent abbr}_{child abbr}"/>
-			<ck value="CK_{table}"/>
-			<un value="AK_{table abbr}_{column abbr}"/>
-			<idx value="IDX_{table abbr}_{column abbr}_{seq nr}"/>
-			<automatic_idx value="IDX_{table abbr}_{column abbr}_{constraint}_{seq nr}"/>
-			<colck value="CK_{table abbr}_{column abbr}"/>
-			<colnnc value="NN_{table abbr}_{column abbr}"/>
+			<pk value="{table}_PK"/>
+			<fk value="{parent}_{child}_FK"/>
+			<ck value="{table}_CK"/>
+			<un value="{table}_{column}_UN"/>
+			<idx value="{table}_{column}_IDX"/>
+			<automatic_idx value="{table}_{column}_IDX"/>
+			<colck value="CK_{table}_{column}"/>
+			<colnnc value="NNC_{table abbr}_{column}"/>
 			<column_foreign_key value="{ref table}_{ref column}"/>
-			<ui value="PK {entity}"/>
+			<ui value="{entity} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
-			<surrogate_key_col value="COD_{table abbr}"/>
+			<surrogate_key_col value="{table abbr}_ID"/>
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
@@ -391,7 +391,7 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="361700F4-E176-8A10-B39D-F49F21AEC375">
+		<model_options objectid="F36D8634-97FB-AE3A-CEB1-81DDD2702315">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
@@ -399,7 +399,7 @@
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 		</model_options>
-		<model_options objectid="3A0C1E36-49BA-0CB0-B103-83A176C2E683">
+		<model_options objectid="F44B7A5E-7796-483D-1348-35190AD9ABDA">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Attribute" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.EntityView" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
@@ -423,7 +423,7 @@
 		</data_types_model_estimates>
 		<relational_model_estimates>
 			<relational_model_0_estimates>
-				<relational_model_name value="Relational_2"/>
+				<relational_model_name value="Relational_1"/>
 				<tables value="70"/>
 				<views value="70"/>
 				<foreign_keys value="70"/>

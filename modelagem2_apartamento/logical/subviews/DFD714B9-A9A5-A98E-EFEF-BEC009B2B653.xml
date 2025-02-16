@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_2" id="3D11AE72-0279-B275-10C5-0627CAEB316A">
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="DFD714B9-A9A5-A98E-EFEF-BEC009B2B653">
 <createdBy>vinic</createdBy>
 <modifiedBy>vinic</modifiedBy>
-<createdTime>2025-02-15 14:01:02 UTC</createdTime>
+<createdTime>2025-02-16 13:10:04 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
 <showLegend>false</showLegend>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F44B7A5E-7796-483D-1348-35190AD9ABDA" mainViewID="DFD714B9-A9A5-A98E-EFEF-BEC009B2B653">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-16 12:58:51 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
