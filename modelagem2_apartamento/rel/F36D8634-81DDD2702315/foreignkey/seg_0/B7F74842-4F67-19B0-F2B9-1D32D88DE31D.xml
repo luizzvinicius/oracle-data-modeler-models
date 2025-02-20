@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7F74842-4F67-19B0-F2B9-1D32D88DE31D" containerWithKeyObject="74B434C5-542E-33CE-03E6-2BF9B66ACEDF" localFKIndex="FD5C708B-BB78-9491-8E10-8FAB2FE475C3" name="Apartament_vehicle_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7F74842-4F67-19B0-F2B9-1D32D88DE31D" containerWithKeyObject="74B434C5-542E-33CE-03E6-2BF9B66ACEDF" localFKIndex="FD5C708B-BB78-9491-8E10-8FAB2FE475C3" name="FK_TB_APT_TB_VEHI">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:20:05 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<referredTableLongName>Apartament</referredTableLongName>
+<referredTableLongName>SCH_PORTARIA.TB_APARTAMENT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>678391A5-435E-36E0-E0D0-9E3B26061A2E</referredTableID>
 <keyObject>ED0555D8-0330-C072-78FD-A5C6375467D0</keyObject>

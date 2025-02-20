@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678391A5-435E-36E0-E0D0-9E3B26061A2E" name="Apartament">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678391A5-435E-36E0-E0D0-9E3B26061A2E" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_APARTAMENT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:54:16 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>table_4</ordsAlias>
+<abbreviation>TB_APT</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,7 +20,7 @@
 <dataTypeSize>2 BYTE</dataTypeSize>
 <ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Apartament_bloco</notNullConstraintName>
+<notNullConstraintName>NN_TB_APT_bloco</notNullConstraintName>
 </Column>
 <Column name="num_apto" id="B7B2E05A-4349-5B60-9642-191504FE22CD">
 <createdBy>vinic</createdBy>
@@ -31,21 +32,22 @@
 <dataTypeSize>3 BYTE</dataTypeSize>
 <ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Apartament_num_apto</notNullConstraintName>
+<notNullConstraintName>NN_TB_APT_num_apto</notNullConstraintName>
 </Column>
 <Column name="status" id="9D3B2EEF-7140-77AE-A998-9A4E9709DE0D">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:55:09 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<sourceType>System</sourceType>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7 BYTE</dataTypeSize>
 <ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Apartament_status</notNullConstraintName>
+<notNullConstraintName>NN_TB_APT_status</notNullConstraintName>
 </Column>
-<Column name="Owner_id" id="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15">
+<Column name="TB_OWNER_id" id="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:03:28 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -55,26 +57,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Apartament_Owner_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_APT_TB_OWNER_id</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="270614B6-2137-CBA3-C80E-68D11638D357" referredColumn="A1826ED8-655C-48E3-2FB5-A34132AD35FC"/>
 </associations>
 </Column>
-<Column name="Resident_id" id="2BAE45F0-37F0-48A7-E511-E3A0B2B1EDCD">
-<createdBy>vinic</createdBy>
-<createdTime>2025-02-20 19:06:36 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-<domain>021CC371-9E5E-8A99-4514-7253E567C3E9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Apartament_Resident_id</notNullConstraintName>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ED0555D8-0330-C072-78FD-A5C6375467D0" name="Apartament_PK">
+<ind_PK_UK id="ED0555D8-0330-C072-78FD-A5C6375467D0" name="PK_TB_APARTAMENT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:00:42 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -86,7 +76,7 @@
 <colUsage columnID="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A479597B-AE36-4347-A584-E847498941ED" name="Owner_Apartament_FK">
+<ind_PK_UK id="A479597B-AE36-4347-A584-E847498941ED" name="FK_TB_OWR_TB_APT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:03:28 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

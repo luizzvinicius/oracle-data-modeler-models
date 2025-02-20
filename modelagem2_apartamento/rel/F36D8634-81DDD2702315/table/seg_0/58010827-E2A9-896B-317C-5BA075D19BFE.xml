@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58010827-E2A9-896B-317C-5BA075D19BFE" name="Owner">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58010827-E2A9-896B-317C-5BA075D19BFE" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_OWNER">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:10:31 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
+<abbreviation>TB_OWR</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,7 @@
 <domain>021CC371-9E5E-8A99-4514-7253E567C3E9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_id</notNullConstraintName>
 </Column>
 <Column name="name" id="7061300F-7966-7DC9-5FF0-E8BA72F6A933">
 <createdBy>vinic</createdBy>
@@ -29,7 +30,7 @@
 <dataTypeSize>100 BYTE</dataTypeSize>
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_name</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_name</notNullConstraintName>
 </Column>
 <Column name="cpf" id="5782C9BB-B846-27B2-35F5-E6E3C826A109">
 <createdBy>vinic</createdBy>
@@ -41,7 +42,7 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_cpf</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_cpf</notNullConstraintName>
 </Column>
 <Column name="phone" id="731F9172-FEE5-A2F7-3907-85EE192CB5A5">
 <createdBy>vinic</createdBy>
@@ -53,7 +54,7 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_phone</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_phone</notNullConstraintName>
 </Column>
 <Column name="status" id="CB3C7AD6-BE21-67C4-AF85-AB933C3AA6A8">
 <createdBy>vinic</createdBy>
@@ -65,7 +66,7 @@
 <dataTypeSize>7 BYTE</dataTypeSize>
 <ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_status</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_status</notNullConstraintName>
 </Column>
 <Column name="created_at" id="6D4FA880-55EF-76FE-7E78-8C54A432FEAC">
 <createdBy>vinic</createdBy>
@@ -77,11 +78,11 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_Owner_created_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_created_at</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="50E0BD62-4CAA-7B0B-53E2-4B62CED8BE2F" name="Owner_PK">
+<ind_PK_UK id="50E0BD62-4CAA-7B0B-53E2-4B62CED8BE2F" name="PK_TB_OWNER">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:13:14 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -92,7 +93,7 @@
 <colUsage columnID="A1826ED8-655C-48E3-2FB5-A34132AD35FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0679496-1997-EF1B-FACD-F4C269424FE2" name="Owner_cpf_UN">
+<ind_PK_UK id="C0679496-1997-EF1B-FACD-F4C269424FE2" name="UK_TB_OWR_cpf">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:17:40 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
