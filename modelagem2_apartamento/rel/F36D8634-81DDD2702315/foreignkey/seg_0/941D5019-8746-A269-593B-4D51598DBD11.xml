@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="941D5019-8746-A269-593B-4D51598DBD11" containerWithKeyObject="48BF3BC8-15CA-53B2-1E40-6FF54D8F637C" localFKIndex="61BF5759-6BAF-823B-2129-4B651B22B0F2" name="Apartament_Resident_FK">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-20 19:06:50 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<referredTableLongName>Apartament</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>678391A5-435E-36E0-E0D0-9E3B26061A2E</referredTableID>
+<keyObject>ED0555D8-0330-C072-78FD-A5C6375467D0</keyObject>
+<referredKeyID>ED0555D8-0330-C072-78FD-A5C6375467D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bloco,num_apto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -62,7 +62,7 @@
 </Column>
 <Column name="Resident_id" id="2BAE45F0-37F0-48A7-E511-E3A0B2B1EDCD">
 <createdBy>vinic</createdBy>
-<createdTime>2025-02-16 14:18:55 UTC</createdTime>
+<createdTime>2025-02-20 19:06:36 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
@@ -71,9 +71,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_Apartament_Resident_id</notNullConstraintName>
-<associations>
-<colAssociation fkAssociation="189720F4-12A2-AEF9-0577-B6EB361B6EB4" referredColumn="0A025158-06FF-1275-70F8-662AFAD3FECA"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -97,16 +94,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2B7553F9-A743-3DEA-3500-6187619BE1E1" name="Resident_Apartament_FK">
-<createdBy>vinic</createdBy>
-<createdTime>2025-02-16 14:18:55 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2BAE45F0-37F0-48A7-E511-E3A0B2B1EDCD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -78,6 +78,36 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_Resident_created_at</notNullConstraintName>
 </Column>
+<Column name="Apartament_bloco" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-20 19:06:50 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941D5019-8746-A269-593B-4D51598DBD11" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
+</associations>
+</Column>
+<Column name="Apartament_num_apto" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-20 19:06:50 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941D5019-8746-A269-593B-4D51598DBD11" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DA54A032-3ECE-41C3-FA61-0B39D5F3E095" name="Resident_PK">
@@ -99,6 +129,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DBA05637-439A-042F-D520-C831E4AAA0B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61BF5759-6BAF-823B-2129-4B651B22B0F2" name="Apartament_Resident_FK">
+<createdBy>vinic</createdBy>
+<createdTime>2025-02-20 19:06:50 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013B1B10-C37D-84A1-2122-0FD4FD246920"/>
+<colUsage columnID="D6F9C781-F6CC-00D1-201A-1701533C82C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

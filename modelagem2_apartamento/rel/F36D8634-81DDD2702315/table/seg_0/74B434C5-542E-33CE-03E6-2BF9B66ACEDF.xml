@@ -112,17 +112,6 @@
 <colAssociation fkAssociation="B7F74842-4F67-19B0-F2B9-1D32D88DE31D" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </associations>
 </Column>
-<Column name="Column_9" id="EC29F6DF-1834-9F97-32E9-E7B7FED91C99">
-<createdBy>vinic</createdBy>
-<createdTime>2025-02-16 14:47:03 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="903CD642-7250-2DF0-8937-385433C04975" name="vehicle_PK">
