@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F42DB8CC-5D2F-BA57-0A31-C170CE678E5E" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_EMPLOYEE">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:19:07 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>TB_func</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FE7D19CA-E031-7560-95DD-56124A5F98AF">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:21:24 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_FUNC_ID</autoIncrementSequenceName>
+<notNullConstraintName>NN_TB_func_id</notNullConstraintName>
+</Column>
+<Column name="name" id="E7132CD1-9274-D8B5-88D2-CE0925210AB4">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:22:22 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_name</notNullConstraintName>
+</Column>
+<Column name="phone" id="E6BFB05A-3014-71F8-32AA-BBB7DB20075D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:22:48 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_phone</notNullConstraintName>
+</Column>
+<Column name="cpf" id="F8049621-D67D-EE6F-E9A0-31BFED9CB861">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:23:36 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_cpf</notNullConstraintName>
+</Column>
+<Column name="emp_role" id="1D0BFBC6-89C9-4A2F-D1A9-6972CDCF8EF1">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:24:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[role pode ser (comum, porteiro ou sindico)]]></commentInRDBMS>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_emp_role</notNullConstraintName>
+</Column>
+<Column name="created_at" id="673053CA-038F-F0B7-CD96-E7C71A60A85B">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:26:01 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_created_at</notNullConstraintName>
+</Column>
+<Column name="updated_at" id="FA4EB403-7122-462D-E080-517D8BC95885">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:26:55 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_func_updated_at</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E8D9573-76E3-0DF5-5ADB-D1FB38C24F25" name="PK_TB_EMPLOYEE">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:21:24 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58B50112-4179-1FDD-906C-D371DA8CDD9F" name="UK_TB_func_cpf">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:53:26 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8049621-D67D-EE6F-E9A0-31BFED9CB861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53214453-93AA-5534-56F7-A3F41A0D7D08" name="UK_TB_func_phone">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 12:54:03 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6BFB05A-3014-71F8-32AA-BBB7DB20075D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TB_EMPLOYEE_role" directorySegmentName="seg_0" id="2C44D8AE-B0BA-93D6-3B91-1BE37C5F3D1F">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:00:46 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<rule><![CDATA[emp_role in ("COMUM", "PORTEIRO", "SINDICO")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

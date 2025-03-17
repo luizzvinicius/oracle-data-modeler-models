@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="156CEFAF-5289-E327-EEB3-38119C13E910" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_INCIDENTS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:25:12 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>TB_INC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1C24E200-1C87-7DD9-FD2A-52BCFA48AD66">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:26:28 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_INC_ID</autoIncrementSequenceName>
+<notNullConstraintName>NN_TB_INC_id</notNullConstraintName>
+</Column>
+<Column name="description" id="5456E336-2131-7C59-B1B8-D3659DDFD439">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:27:11 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INC_description</notNullConstraintName>
+</Column>
+<Column name="incident_hour" id="EF7EF02C-6F27-D7BF-92DB-EC57366B92BD">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:29:42 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_INC_hour</notNullConstraintName>
+</Column>
+<Column name="TB_APARTAMENT_bloco" id="E4746AA4-8D53-E395-B56F-9EAECCF6C400">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:27:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
+</associations>
+</Column>
+<Column name="TB_APARTAMENT_num_apto" id="47ED1290-7D4C-1EF5-0B4D-C205AB3BD759">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:27:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8013DDEC-C26E-FA9D-B5D6-6CE2A751EC42" name="PK_TB_INCIDENTS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:26:28 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C24E200-1C87-7DD9-FD2A-52BCFA48AD66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="317C3488-DCC4-56CF-F8F5-CA77F0D87B07" name="FK_TB_APT_TB_INC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-17 13:27:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4746AA4-8D53-E395-B56F-9EAECCF6C400"/>
+<colUsage columnID="47ED1290-7D4C-1EF5-0B4D-C205AB3BD759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
