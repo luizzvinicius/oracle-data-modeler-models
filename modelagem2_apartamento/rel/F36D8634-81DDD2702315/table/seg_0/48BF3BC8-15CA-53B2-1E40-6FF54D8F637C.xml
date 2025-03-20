@@ -134,6 +134,17 @@
 <colUsage columnID="DBA05637-439A-042F-D520-C831E4AAA0B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F9A96CE6-D0E7-E79C-6398-FBC2C53BBCEC" name="IDX_TB_RESDT_numapt_status">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:24:06 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013B1B10-C37D-84A1-2122-0FD4FD246920"/>
+<colUsage columnID="D6F9C781-F6CC-00D1-201A-1701533C82C5"/>
+<colUsage columnID="C026F345-C115-92C8-95C8-E45101FA84E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="61BF5759-6BAF-823B-2129-4B651B22B0F2" name="FK_TB_APT_TB_RESI">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-20 19:06:50 UTC</createdTime>

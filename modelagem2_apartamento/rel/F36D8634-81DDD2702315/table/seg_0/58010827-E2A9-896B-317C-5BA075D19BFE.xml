@@ -103,5 +103,15 @@
 <colUsage columnID="5782C9BB-B846-27B2-35F5-E6E3C826A109"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="463269AA-9026-08E9-F9B2-BE2FC8DC4858" name="IDX_TB_OWNER_cpf_status">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:15:39 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5782C9BB-B846-27B2-35F5-E6E3C826A109"/>
+<colUsage columnID="CB3C7AD6-BE21-67C4-AF85-AB933C3AA6A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>
