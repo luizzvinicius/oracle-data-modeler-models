@@ -4,7 +4,7 @@
 <createdTime>2025-03-17 12:19:07 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>table_5</ordsAlias>
-<abbreviation>TB_func</abbreviation>
+<abbreviation>TB_EMP</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -21,7 +21,7 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SQ_FUNC_ID</autoIncrementSequenceName>
-<notNullConstraintName>NN_TB_func_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_id</notNullConstraintName>
 </Column>
 <Column name="name" id="E7132CD1-9274-D8B5-88D2-CE0925210AB4">
 <createdBy>vinic</createdBy>
@@ -33,7 +33,7 @@
 <dataTypeSize>100 BYTE</dataTypeSize>
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_name</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_NAME</notNullConstraintName>
 </Column>
 <Column name="phone" id="E6BFB05A-3014-71F8-32AA-BBB7DB20075D">
 <createdBy>vinic</createdBy>
@@ -45,7 +45,7 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_phone</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_phone</notNullConstraintName>
 </Column>
 <Column name="cpf" id="F8049621-D67D-EE6F-E9A0-31BFED9CB861">
 <createdBy>vinic</createdBy>
@@ -57,7 +57,7 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_cpf</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_cpf</notNullConstraintName>
 </Column>
 <Column name="emp_role" id="1D0BFBC6-89C9-4A2F-D1A9-6972CDCF8EF1">
 <createdBy>vinic</createdBy>
@@ -70,7 +70,7 @@
 <dataTypeSize>8 BYTE</dataTypeSize>
 <ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_emp_role</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_ROLE</notNullConstraintName>
 </Column>
 <Column name="created_at" id="673053CA-038F-F0B7-CD96-E7C71A60A85B">
 <createdBy>vinic</createdBy>
@@ -82,7 +82,7 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_created_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_created_at</notNullConstraintName>
 </Column>
 <Column name="updated_at" id="FA4EB403-7122-462D-E080-517D8BC95885">
 <createdBy>vinic</createdBy>
@@ -94,7 +94,7 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_func_updated_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_EMP_updated_at</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

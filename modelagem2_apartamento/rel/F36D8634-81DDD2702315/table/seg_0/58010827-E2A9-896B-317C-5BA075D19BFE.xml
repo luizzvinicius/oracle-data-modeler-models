@@ -80,6 +80,33 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_OWR_created_at</notNullConstraintName>
 </Column>
+<Column name="updated_at" id="A62D9678-D969-4F66-179F-D49FDD2A7026">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:34:35 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_OWR_created_at</notNullConstraintName>
+</Column>
+<Column name="TB_EMPLOYEE_id" id="8A875356-AFA7-090E-ED0A-987D865B4B69">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:38:15 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F6AAD5F-4DD3-9FAA-28E0-DD49854487CE" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="50E0BD62-4CAA-7B0B-53E2-4B62CED8BE2F" name="PK_TB_OWNER">
@@ -111,6 +138,16 @@
 <indexColumnUsage>
 <colUsage columnID="5782C9BB-B846-27B2-35F5-E6E3C826A109"/>
 <colUsage columnID="CB3C7AD6-BE21-67C4-AF85-AB933C3AA6A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_OWNER">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:38:15 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A875356-AFA7-090E-ED0A-987D865B4B69"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

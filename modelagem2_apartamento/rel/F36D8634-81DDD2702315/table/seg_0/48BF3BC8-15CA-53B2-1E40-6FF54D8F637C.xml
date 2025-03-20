@@ -79,6 +79,17 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_RESI_created_at</notNullConstraintName>
 </Column>
+<Column name="updated_at" id="431D9B9B-20F5-E253-C440-392D390F286E">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:35:32 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RESI_created_at</notNullConstraintName>
+</Column>
 <Column name="TB_APARTAMENT_bloco" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-20 19:06:50 UTC</createdTime>
@@ -109,6 +120,21 @@
 <notNullConstraintName>NN_TB_RESI_TB_APARTAMENT_num_apto</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="941D5019-8746-A269-593B-4D51598DBD11" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
+</associations>
+</Column>
+<Column name="TB_EMPLOYEE_id" id="A9F52F1B-3DDB-7D75-80D4-AB1096930DB1">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:45:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC70BF95-C3C9-8193-726C-DFB0033211B6" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
@@ -154,6 +180,16 @@
 <indexColumnUsage>
 <colUsage columnID="013B1B10-C37D-84A1-2122-0FD4FD246920"/>
 <colUsage columnID="D6F9C781-F6CC-00D1-201A-1701533C82C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BB6D0DC-F872-8466-D506-C5C7A2A54ED2" name="FK_TB_EMP_TB_RESI">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:45:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F52F1B-3DDB-7D75-80D4-AB1096930DB1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

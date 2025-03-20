@@ -47,6 +47,28 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_INC_hour</notNullConstraintName>
 </Column>
+<Column name="created_at" id="3255D8D0-9675-BAA1-9052-752BAD3FE74B">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:47:12 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_INC_created_at</notNullConstraintName>
+</Column>
+<Column name="updated_at" id="D2590F10-258A-CDCA-8E7B-01BC968EEDDE">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 14:47:12 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_INC_UPDATED_AT</notNullConstraintName>
+</Column>
 <Column name="TB_APARTAMENT_bloco" id="E4746AA4-8D53-E395-B56F-9EAECCF6C400">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-17 13:27:34 UTC</createdTime>
@@ -58,6 +80,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_INC_bloco</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
 </associations>
@@ -73,8 +96,24 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_INC_NUMAPT</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
+</associations>
+</Column>
+<Column name="TB_EMPLOYEE_id" id="694CB28E-3C14-67F5-B69F-3CBA828CA434">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 15:07:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA01EB40-FA6A-5D5E-F484-443FD91E988F" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
@@ -99,6 +138,16 @@
 <indexColumnUsage>
 <colUsage columnID="E4746AA4-8D53-E395-B56F-9EAECCF6C400"/>
 <colUsage columnID="47ED1290-7D4C-1EF5-0B4D-C205AB3BD759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="129A3224-4EA7-F734-A1E3-5A739693453A" name="FK_TB_EMP_TB_INC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 15:07:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="694CB28E-3C14-67F5-B69F-3CBA828CA434"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

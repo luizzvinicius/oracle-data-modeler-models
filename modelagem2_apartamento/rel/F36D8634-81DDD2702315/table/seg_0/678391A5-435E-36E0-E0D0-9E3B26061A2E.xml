@@ -62,6 +62,21 @@
 <colAssociation fkAssociation="270614B6-2137-CBA3-C80E-68D11638D357" referredColumn="A1826ED8-655C-48E3-2FB5-A34132AD35FC"/>
 </associations>
 </Column>
+<Column name="TB_EMPLOYEE_id" id="01387E02-CF5D-2B94-E2A8-452E093AC62B">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 15:06:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A517B044-FC7F-553F-1819-5990C31898C2" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="ED0555D8-0330-C072-78FD-A5C6375467D0" name="PK_TB_APARTAMENT">
@@ -95,6 +110,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8E3CCCD-8E5B-507C-1727-3E54F9C33344" name="FK_TB_EMP_TB_APT">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-20 15:06:27 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01387E02-CF5D-2B94-E2A8-452E093AC62B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
