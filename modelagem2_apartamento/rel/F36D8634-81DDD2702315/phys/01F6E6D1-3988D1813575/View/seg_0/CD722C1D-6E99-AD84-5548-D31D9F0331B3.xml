@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="VW_VEHICLE_OWNERS" directorySegmentName="seg_0" id="CD722C1D-6E99-AD84-5548-D31D9F0331B3">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<schemaObject>1D82DB79-3717-199E-C6CD-C271439D77CB</schemaObject>
+</TableViewProxyOraclev10g>

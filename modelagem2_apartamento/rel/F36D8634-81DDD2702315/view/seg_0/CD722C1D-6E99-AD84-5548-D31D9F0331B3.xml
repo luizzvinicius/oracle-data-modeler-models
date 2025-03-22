@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="CD722C1D-6E99-AD84-5548-D31D9F0331B3" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="VW_Vehicle_Owners">
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="CD722C1D-6E99-AD84-5548-D31D9F0331B3" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="VW_VEHICLE_OWNERS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 16:37:30 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

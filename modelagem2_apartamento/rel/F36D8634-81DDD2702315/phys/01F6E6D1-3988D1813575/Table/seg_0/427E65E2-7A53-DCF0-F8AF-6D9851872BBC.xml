@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_PACKAGES" directorySegmentName="seg_0" id="427E65E2-7A53-DCF0-F8AF-6D9851872BBC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<schemaObject>1D82DB79-3717-199E-C6CD-C271439D77CB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>41E282F9-EFC5-A8F2-B709-3A53993CFFEB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name=" retrieve_date" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="signature" id="79EE0464-33DE-04E0-5837-720BFC5FBB93">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name=" receipt_date" id="8CD76B3F-DC27-4E05-744E-6EA850463AE7">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_pkg" id="9A0313C7-AD0B-ED13-CD43-69DEA028CBF2">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_EMPLOYEE_id" id="B391EA6E-289E-913C-860D-0A63E771ECE6">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C018F6B2-1D3C-1EC5-3464-B4C0220D0D11">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_RESIDENT_id" id="F4F8E25E-6242-7CC6-FE01-4C84ACA60618">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TB_RESI_TB_PKG" id="B45256EF-8F54-860A-E88B-A8CCF264DDEA">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TB_EMP_TB_PKG" id="C940D07D-6CB0-B527-B669-41B764AC402F">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TB_PACKAGES" id="12907BEB-2B95-E169-598F-DAE0C412909C">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-22 12:55:37 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
