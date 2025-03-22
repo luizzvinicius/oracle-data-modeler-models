@@ -130,17 +130,17 @@
 <colUsage columnID="5782C9BB-B846-27B2-35F5-E6E3C826A109"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="463269AA-9026-08E9-F9B2-BE2FC8DC4858" name="IDX_TB_OWNER_cpf_status">
+<ind_PK_UK id="4B505436-4E54-F048-DCBA-BB97DC4717A4" name="UK_TB_OWR_phone">
 <createdBy>vinic</createdBy>
-<createdTime>2025-03-20 14:15:39 UTC</createdTime>
+<createdTime>2025-03-21 20:17:58 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5782C9BB-B846-27B2-35F5-E6E3C826A109"/>
-<colUsage columnID="CB3C7AD6-BE21-67C4-AF85-AB933C3AA6A8"/>
+<colUsage columnID="731F9172-FEE5-A2F7-3907-85EE192CB5A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_OWNER">
+<ind_PK_UK id="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_OWR">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:38:15 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

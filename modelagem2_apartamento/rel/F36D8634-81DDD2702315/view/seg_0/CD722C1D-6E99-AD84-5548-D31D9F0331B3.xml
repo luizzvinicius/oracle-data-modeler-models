@@ -62,9 +62,9 @@ emp.id = v.TB_EMPLOYEE_ID]]></userDefinedSQL>
 <referencedColumn>B0C44FC7-7535-DC19-E073-50E513FA1962</referencedColumn>
 <table>74B434C5-542E-33CE-03E6-2BF9B66ACEDF</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="color" id="1C837EB4-2314-B0EB-5533-E7F558E1406D">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="color" id="1535F60D-1630-3CE9-0F7F-33566D895B04">
 <createdBy>vinic</createdBy>
-<createdTime>2025-03-20 16:41:55 UTC</createdTime>
+<createdTime>2025-03-21 21:51:58 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>VARCHAR2 (15 BYTE)</dataType>

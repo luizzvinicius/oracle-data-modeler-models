@@ -278,9 +278,9 @@
 		<constraints>
 			<pk value="PK_{table}"/>
 			<fk value="FK_{parent abbr}_{child abbr}"/>
-			<ck value="{table}_CK"/>
+			<ck value="CK_{table}"/>
 			<un value="UK_{table abbr}_{column abbr}"/>
-			<idx value="{table}_{column}_IDX"/>
+			<idx value="IDX_{table}_{column}"/>
 			<automatic_idx value="IDX_{table abbr}_{column abbr}_{seq nr}"/>
 			<colck value="CK_{table abbr}_{column abbr}"/>
 			<colnnc value="NN_{table abbr}_{column}"/>
