@@ -13,11 +13,14 @@
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:13:37 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-<domain>021CC371-9E5E-8A99-4514-7253E567C3E9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_TB_OWNER_ID</autoIncrementSequenceName>
 <notNullConstraintName>NN_TB_OWR_id</notNullConstraintName>
 </Column>
 <Column name="name" id="7061300F-7966-7DC9-5FF0-E8BA72F6A933">
