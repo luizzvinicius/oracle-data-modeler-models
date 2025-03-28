@@ -33,7 +33,7 @@
 <dataTypeSize>255 BYTE</dataTypeSize>
 <ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_INC_description</notNullConstraintName>
+<notNullConstraintName>NN_TB_INC_DESCRIPTON</notNullConstraintName>
 </Column>
 <Column name="incident_hour" id="EF7EF02C-6F27-D7BF-92DB-EC57366B92BD">
 <createdBy>vinic</createdBy>
@@ -45,7 +45,7 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_INC_hour</notNullConstraintName>
+<notNullConstraintName>NN_TB_INC_HOUR</notNullConstraintName>
 </Column>
 <Column name="created_at" id="3255D8D0-9675-BAA1-9052-752BAD3FE74B">
 <createdBy>vinic</createdBy>
@@ -69,7 +69,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_INC_UPDATED_AT</notNullConstraintName>
 </Column>
-<Column name="TB_APARTAMENT_bloco" id="E4746AA4-8D53-E395-B56F-9EAECCF6C400">
+<Column name="TB_APARTAMENTS_bloco" id="E4746AA4-8D53-E395-B56F-9EAECCF6C400">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-17 13:27:34 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -85,7 +85,7 @@
 <colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
 </associations>
 </Column>
-<Column name="TB_APARTAMENT_num_apto" id="47ED1290-7D4C-1EF5-0B4D-C205AB3BD759">
+<Column name="TB_APARTAMENTS_num_apt" id="47ED1290-7D4C-1EF5-0B4D-C205AB3BD759">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-17 13:27:34 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -96,12 +96,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_INC_NUMAPT</notNullConstraintName>
+<notNullConstraintName>NN_TB_INC_NUM_APT</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FED14463-C256-BBD3-7835-4FC9211448C4" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </associations>
 </Column>
-<Column name="TB_EMPLOYEE_id" id="694CB28E-3C14-67F5-B69F-3CBA828CA434">
+<Column name="TB_EMPLOYEES_id" id="694CB28E-3C14-67F5-B69F-3CBA828CA434">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:07:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -112,6 +112,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_INC_EMP_ID</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="EA01EB40-FA6A-5D5E-F484-443FD91E988F" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>

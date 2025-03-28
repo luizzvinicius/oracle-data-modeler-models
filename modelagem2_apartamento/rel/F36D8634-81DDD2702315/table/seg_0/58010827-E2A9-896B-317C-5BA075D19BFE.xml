@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58010827-E2A9-896B-317C-5BA075D19BFE" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_OWNER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58010827-E2A9-896B-317C-5BA075D19BFE" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_OWNERS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:10:31 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -62,12 +62,13 @@
 <Column name="status" id="CB3C7AD6-BE21-67C4-AF85-AB933C3AA6A8">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:18:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[status pode ser A/I de "ativo" ou "inativo"]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>7 BYTE</dataTypeSize>
-<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_OWR_status</notNullConstraintName>
 </Column>
@@ -93,9 +94,9 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_OWR_created_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_OWR_UPDATED_AT</notNullConstraintName>
 </Column>
-<Column name="TB_EMPLOYEE_id" id="8A875356-AFA7-090E-ED0A-987D865B4B69">
+<Column name="TB_EMPLOYEES_id" id="8A875356-AFA7-090E-ED0A-987D865B4B69">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:38:15 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -106,13 +107,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_OWR_EMP_ID</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="8F6AAD5F-4DD3-9FAA-28E0-DD49854487CE" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="50E0BD62-4CAA-7B0B-53E2-4B62CED8BE2F" name="PK_TB_OWNER">
+<ind_PK_UK id="50E0BD62-4CAA-7B0B-53E2-4B62CED8BE2F" name="PK_TB_OWNERS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:13:14 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -154,4 +156,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TB_OWNER_STATUS" directorySegmentName="seg_0" id="3EC247C2-30B8-A680-4056-D7321D7FFDA9">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-28 14:17:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<rule><![CDATA[UPPER(status) in ('A', 'I')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

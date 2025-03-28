@@ -34,7 +34,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_PKG_cod_pkg</notNullConstraintName>
 </Column>
-<Column name=" receipt_date" id="8CD76B3F-DC27-4E05-744E-6EA850463AE7">
+<Column name="receipt_date" id="8CD76B3F-DC27-4E05-744E-6EA850463AE7">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:32:29 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -44,9 +44,9 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_ receipt_date</notNullConstraintName>
+<notNullConstraintName>NN_TB_PKG_receipt_date</notNullConstraintName>
 </Column>
-<Column name=" retrieve_date" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
+<Column name="retrieve_date" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:34:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -56,7 +56,7 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_ retrieve_date</notNullConstraintName>
+<notNullConstraintName>NN_TB_PKG_retrieve_date</notNullConstraintName>
 </Column>
 <Column name="signature" id="79EE0464-33DE-04E0-5837-720BFC5FBB93">
 <createdBy>vinic</createdBy>
@@ -70,22 +70,23 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_PKG_signature</notNullConstraintName>
 </Column>
-<Column name="TB_RESIDENT_id" id="F4F8E25E-6242-7CC6-FE01-4C84ACA60618">
+<Column name="TB_RESIDENTS_id" id="F4F8E25E-6242-7CC6-FE01-4C84ACA60618">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:51:04 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-<domain>021CC371-9E5E-8A99-4514-7253E567C3E9</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_TB_RESIDENT_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_PKG_RESIDENT_ID</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="2B276594-AE4B-CCA5-D78C-933541482A41" referredColumn="0A025158-06FF-1275-70F8-662AFAD3FECA"/>
 </associations>
 </Column>
-<Column name="TB_EMPLOYEE_id" id="B391EA6E-289E-913C-860D-0A63E771ECE6">
+<Column name="TB_EMPLOYEES_id" id="B391EA6E-289E-913C-860D-0A63E771ECE6">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:07:06 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -96,6 +97,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_PKG_EMP_ID</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FEAD7867-E897-E03F-4948-E130386C70C3" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>

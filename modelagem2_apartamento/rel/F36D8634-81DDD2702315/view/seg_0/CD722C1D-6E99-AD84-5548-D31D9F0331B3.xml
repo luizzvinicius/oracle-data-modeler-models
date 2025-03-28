@@ -5,37 +5,37 @@
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>view_1</ordsAlias>
 <userDefined>true</userDefined>
-<userDefinedSQL><![CDATA[SELECT v.TB_APARTAMENT_bloco, v.TB_APARTAMENT_NUM_APTO, v.plate, 
+<userDefinedSQL><![CDATA[SELECT v.TB_APARTAMENTS_bloco, v.TB_APARTAMENTS_NUM_APT, v.plate, 
 v.category, v.color, v.model, v.note, v.created_at, v.updated_at,
 r.name, r.cpf, r.phone, emp.name
-FROM TB_VEHICLE v 
-INNER JOIN TB_RESIDENT r ON 
-v.TB_APARTAMENT_BLOCO = r.TB_APARTAMENT_BLOCO AND
-v.TB_APARTAMENT_NUM_APTO = r.TB_APARTAMENT_NUM_APTO AND
-r.status = 'ativo' 
-INNER JOIN TB_EMPLOYEE emp ON 
-emp.id = v.TB_EMPLOYEE_ID]]></userDefinedSQL>
+FROM TB_VEHICLES v 
+INNER JOIN TB_RESIDENTS r ON 
+v.TB_APARTAMENTS_BLOCO = r.TB_APARTAMENTS_BLOCO AND
+v.TB_APARTAMENTS_NUM_APT = r.TB_APARTAMENTS_NUM_APT AND
+r.status = 'A' 
+INNER JOIN TB_EMPLOYEES emp ON 
+emp.id = v.TB_EMPLOYEES_ID]]></userDefinedSQL>
 <parsed>true</parsed>
 <includeSchemaNameInQuery>true</includeSchemaNameInQuery>
 <viewElements>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENT_bloco" id="1C77CE6E-282C-28C0-DFFB-ED2C1D522D99">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENTS_bloco" id="1C77CE6E-282C-28C0-DFFB-ED2C1D522D99">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 16:56:51 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>VARCHAR2 (2 BYTE)</dataType>
-<headerAlias>TB_APARTAMENT_bloco</headerAlias>
+<headerAlias>TB_APARTAMENTS_bloco</headerAlias>
 <reference>false</reference>
 <referencedColumn>44EC0019-83B5-9B47-0233-3050C2E374B3</referencedColumn>
 <table>74B434C5-542E-33CE-03E6-2BF9B66ACEDF</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENT_NUM_APTO" id="D8CC2C00-CA61-87BE-61B0-7375D16CB4EF">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENTS_NUM_APT" id="D8CC2C00-CA61-87BE-61B0-7375D16CB4EF">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 16:41:55 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>VARCHAR2 (3 BYTE)</dataType>
-<headerAlias>TB_APARTAMENT_NUM_APTO</headerAlias>
+<headerAlias>TB_APARTAMENTS_NUM_APT</headerAlias>
 <reference>false</reference>
 <referencedColumn>6DA56C67-FB93-A26C-D635-9E2C5702BF49</referencedColumn>
 <table>74B434C5-542E-33CE-03E6-2BF9B66ACEDF</table>
@@ -166,107 +166,107 @@ emp.id = v.TB_EMPLOYEE_ID]]></userDefinedSQL>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="74B434C5-542E-33CE-03E6-2BF9B66ACEDF">
 <container>true</container>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="48BF3BC8-15CA-53B2-1E40-6FF54D8F637C">
 <container>true</container>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F42DB8CC-5D2F-BA57-0A31-C170CE678E5E">
 <container>true</container>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_EMPLOYEE</tableName>
+<tableName>TB_EMPLOYEES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="44EC0019-83B5-9B47-0233-3050C2E374B3">
-<columnName>TB_APARTAMENT_bloco</columnName>
+<columnName>TB_APARTAMENTS_bloco</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6DA56C67-FB93-A26C-D635-9E2C5702BF49">
-<columnName>TB_APARTAMENT_num_apto</columnName>
+<columnName>TB_APARTAMENTS_num_apt</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65C8C0A2-A801-11E8-8F52-383A39A92298">
 <columnName>plate</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B0C44FC7-7535-DC19-E073-50E513FA1962">
 <columnName>category</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="59DEA860-95DC-7461-1F9B-DC5E6B4D514B">
 <columnName>color</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="32B8DFFD-B41B-A7A8-A83C-A05DBD20464B">
 <columnName>model</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7930D290-F184-A682-C766-41E08BE1AA62">
 <columnName>note</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A11C4F79-7E19-39F7-B8C3-58F863DE1DEC">
 <columnName>created_at</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C9CAB5D6-91EF-9463-1D15-8BA6F58E2B69">
 <columnName>updated_at</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="96E9800B-6607-AB32-F54B-1B1E196A53E8">
 <columnName>name</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DBA05637-439A-042F-D520-C831E4AAA0B1">
 <columnName>cpf</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1B0C94BB-B515-D1FB-1B6C-8CE25876C68F">
 <columnName>phone</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E7132CD1-9274-D8B5-88D2-CE0925210AB4">
 <columnName>name</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_EMPLOYEE</tableName>
+<tableName>TB_EMPLOYEES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
+<columnName>TB_APARTAMENTS_num_apt</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C026F345-C115-92C8-95C8-E45101FA84E6">
 <columnName>status</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
-<columnName>TB_APARTAMENT_num_apto</columnName>
-<schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE7D19CA-E031-7560-95DD-56124A5F98AF">
 <columnName>id</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_EMPLOYEE</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5E4CBA09-6527-8F9C-AAA8-C731BCB7020E">
-<columnName>TB_EMPLOYEE_id</columnName>
-<schema>SCH_PORTARIA</schema>
-<tableName>TB_VEHICLE</tableName>
+<tableName>TB_EMPLOYEES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
-<columnName>TB_APARTAMENT_bloco</columnName>
+<columnName>TB_APARTAMENTS_bloco</columnName>
 <schema>SCH_PORTARIA</schema>
-<tableName>TB_RESIDENT</tableName>
+<tableName>TB_RESIDENTS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5E4CBA09-6527-8F9C-AAA8-C731BCB7020E">
+<columnName>TB_EMPLOYEES_id</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_VEHICLES</tableName>
 </UsedObject>
 </usedObjects>
 </TableView>
