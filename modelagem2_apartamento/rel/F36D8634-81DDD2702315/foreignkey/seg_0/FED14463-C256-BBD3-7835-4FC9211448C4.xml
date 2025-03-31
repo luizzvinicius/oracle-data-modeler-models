@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FED14463-C256-BBD3-7835-4FC9211448C4" containerWithKeyObject="156CEFAF-5289-E327-EEB3-38119C13E910" localFKIndex="317C3488-DCC4-56CF-F8F5-CA77F0D87B07" name="FK_TB_APT_TB_INC">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FED14463-C256-BBD3-7835-4FC9211448C4" containerWithKeyObject="156CEFAF-5289-E327-EEB3-38119C13E910" localFKIndex="317C3488-DCC4-56CF-F8F5-CA77F0D87B07" name="FK_TB_APTS_TB_INC">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-17 13:27:34 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<referredTableLongName>SCH_PORTARIA.TB_APARTAMENT</referredTableLongName>
+<referredTableLongName>SCH_PORTARIA.TB_APARTAMENTOS</referredTableLongName>
 <deleteRule>CASCADE</deleteRule>
 <referredTableID>678391A5-435E-36E0-E0D0-9E3B26061A2E</referredTableID>
 <keyObject>ED0555D8-0330-C072-78FD-A5C6375467D0</keyObject>
 <referredKeyID>ED0555D8-0330-C072-78FD-A5C6375467D0</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>bloco,num_apto</refColNames>
+<refColNames>apt_bloco,apt_num</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

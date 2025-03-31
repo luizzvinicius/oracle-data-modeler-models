@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678391A5-435E-36E0-E0D0-9E3B26061A2E" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_APARTAMENTS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="678391A5-435E-36E0-E0D0-9E3B26061A2E" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_APARTAMENTOS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:54:16 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>table_4</ordsAlias>
-<abbreviation>TB_APT</abbreviation>
+<abbreviation>TB_APTS</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="bloco" id="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753">
+<Column name="apt_bloco" id="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:00:42 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -19,9 +19,9 @@
 <dataTypeSize>2 BYTE</dataTypeSize>
 <ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_APT_bloco</notNullConstraintName>
+<notNullConstraintName>NN_TB_APTS_apt_bloco</notNullConstraintName>
 </Column>
-<Column name="num_apt" id="B7B2E05A-4349-5B60-9642-191504FE22CD">
+<Column name="apt_num" id="B7B2E05A-4349-5B60-9642-191504FE22CD">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:00:59 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -31,12 +31,12 @@
 <dataTypeSize>3 BYTE</dataTypeSize>
 <ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_APT_NUM_APT</notNullConstraintName>
+<notNullConstraintName>NN_TB_APTS_apt_num</notNullConstraintName>
 </Column>
-<Column name="status" id="9D3B2EEF-7140-77AE-A998-9A4E9709DE0D">
+<Column name="apt_status" id="9D3B2EEF-7140-77AE-A998-9A4E9709DE0D">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:55:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[status pode ser A/I de "ativo" ou "inativo"]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[status pode ser A/I de (ativo| inativo)]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <sourceType>System</sourceType>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +45,9 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_APT_status</notNullConstraintName>
+<notNullConstraintName>NN_TB_APTS_apt_status</notNullConstraintName>
 </Column>
-<Column name="TB_OWNERS_id" id="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15">
+<Column name="TB_PROPRIETARIOS_prop_id" id="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:03:28 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -58,12 +58,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_APT_TB_OWR_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_APTS_TB_PROPRIETARIOS_id</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="270614B6-2137-CBA3-C80E-68D11638D357" referredColumn="A1826ED8-655C-48E3-2FB5-A34132AD35FC"/>
 </associations>
 </Column>
-<Column name="TB_EMPLOYEES_id" id="01387E02-CF5D-2B94-E2A8-452E093AC62B">
+<Column name="TB_EMPREGADOS_emp_id" id="01387E02-CF5D-2B94-E2A8-452E093AC62B">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:06:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -74,14 +74,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_APT_EMP_ID</notNullConstraintName>
+<notNullConstraintName>NN_TB_APTS_alterado_por</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="A517B044-FC7F-553F-1819-5990C31898C2" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ED0555D8-0330-C072-78FD-A5C6375467D0" name="PK_TB_APARTAMENTS">
+<ind_PK_UK id="ED0555D8-0330-C072-78FD-A5C6375467D0" name="PK_TB_APARTAMENTOS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:00:42 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -93,7 +93,7 @@
 <colUsage columnID="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A479597B-AE36-4347-A584-E847498941ED" name="FK_TB_OWR_TB_APT">
+<ind_PK_UK id="A479597B-AE36-4347-A584-E847498941ED" name="FK_TB_PROPTS_TB_APTS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:03:28 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -103,7 +103,7 @@
 <colUsage columnID="F9343A9F-7BB8-C5C7-BEC7-C0ECFAD10B15"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C8E3CCCD-8E5B-507C-1727-3E54F9C33344" name="FK_TB_EMP_TB_APT">
+<ind_PK_UK id="C8E3CCCD-8E5B-507C-1727-3E54F9C33344" name="FK_TB_EMP_TB_APTS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:06:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -115,11 +115,11 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="CK_TB_APT_STATUS" directorySegmentName="seg_0" id="010A90B8-19D4-EA7C-D03C-FFF553421431">
+<tableCheckConstraint name="CK_TB_APARTAMENTOS_status" directorySegmentName="seg_0" id="010A90B8-19D4-EA7C-D03C-FFF553421431">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-28 14:22:12 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<rule><![CDATA[UPPER(status) in ('A', 'I')]]></rule>
+<rule><![CDATA[UPPER(apt_status) in ('A', 'I')]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>

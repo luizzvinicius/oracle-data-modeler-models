@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F6AAD5F-4DD3-9FAA-28E0-DD49854487CE" containerWithKeyObject="58010827-E2A9-896B-317C-5BA075D19BFE" localFKIndex="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_OWR">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F6AAD5F-4DD3-9FAA-28E0-DD49854487CE" containerWithKeyObject="58010827-E2A9-896B-317C-5BA075D19BFE" localFKIndex="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_PROPTS">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:38:15 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<referredTableLongName>SCH_PORTARIA.TB_EMPLOYEE</referredTableLongName>
+<referredTableLongName>SCH_PORTARIA.TB_EMPREGADOS</referredTableLongName>
 <deleteRule>CASCADE</deleteRule>
 <referredTableID>F42DB8CC-5D2F-BA57-0A31-C170CE678E5E</referredTableID>
 <keyObject>1E8D9573-76E3-0DF5-5ADB-D1FB38C24F25</keyObject>
 <referredKeyID>1E8D9573-76E3-0DF5-5ADB-D1FB38C24F25</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id</refColNames>
+<refColNames>emp_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

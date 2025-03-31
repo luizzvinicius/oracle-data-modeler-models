@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="427E65E2-7A53-DCF0-F8AF-6D9851872BBC" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_PACKAGES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="427E65E2-7A53-DCF0-F8AF-6D9851872BBC" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_PACOTES">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-17 13:32:32 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <ordsAlias>table_7</ordsAlias>
-<abbreviation>TB_PKG</abbreviation>
+<abbreviation>TB_PCT</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C018F6B2-1D3C-1EC5-3464-B4C0220D0D11">
+<Column name="pct_id" id="C018F6B2-1D3C-1EC5-3464-B4C0220D0D11">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:27:25 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_id</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_id</notNullConstraintName>
 </Column>
-<Column name="cod_pkg" id="9A0313C7-AD0B-ED13-CD43-69DEA028CBF2">
+<Column name="pct_cod" id="9A0313C7-AD0B-ED13-CD43-69DEA028CBF2">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:29:13 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -32,9 +32,9 @@
 <dataTypeSize>255 BYTE</dataTypeSize>
 <ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_cod_pkg</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_cod</notNullConstraintName>
 </Column>
-<Column name="receipt_date" id="8CD76B3F-DC27-4E05-744E-6EA850463AE7">
+<Column name="pct_data_recebimento" id="8CD76B3F-DC27-4E05-744E-6EA850463AE7">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:32:29 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -44,9 +44,9 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_receipt_date</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_data_recebimento</notNullConstraintName>
 </Column>
-<Column name="retrieve_date" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
+<Column name="pct_data_retirada" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:34:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -56,9 +56,9 @@
 <dataTypePrecision>0</dataTypePrecision>
 <ownDataTypeParameters>,0,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_retrieve_date</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_data_retirada</notNullConstraintName>
 </Column>
-<Column name="signature" id="79EE0464-33DE-04E0-5837-720BFC5FBB93">
+<Column name="pct_assinatura" id="79EE0464-33DE-04E0-5837-720BFC5FBB93">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:40:50 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -68,9 +68,9 @@
 <dataTypeSize>255 BYTE</dataTypeSize>
 <ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_signature</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_assinatura</notNullConstraintName>
 </Column>
-<Column name="TB_RESIDENTS_id" id="F4F8E25E-6242-7CC6-FE01-4C84ACA60618">
+<Column name="TB_RESIDENTES_resi_id" id="F4F8E25E-6242-7CC6-FE01-4C84ACA60618">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:51:04 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -81,12 +81,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_RESIDENT_ID</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_TB_RESIDENTES_resi_id</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="2B276594-AE4B-CCA5-D78C-933541482A41" referredColumn="0A025158-06FF-1275-70F8-662AFAD3FECA"/>
 </associations>
 </Column>
-<Column name="TB_EMPLOYEES_id" id="B391EA6E-289E-913C-860D-0A63E771ECE6">
+<Column name="pct_alterado_por" id="B391EA6E-289E-913C-860D-0A63E771ECE6">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:07:06 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -97,14 +97,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PKG_EMP_ID</notNullConstraintName>
+<notNullConstraintName>NN_TB_PCT_pct_alterado_por</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FEAD7867-E897-E03F-4948-E130386C70C3" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="12907BEB-2B95-E169-598F-DAE0C412909C" name="PK_TB_PACKAGES">
+<ind_PK_UK id="12907BEB-2B95-E169-598F-DAE0C412909C" name="PK_TB_PACOTES">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:27:25 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -115,7 +115,7 @@
 <colUsage columnID="C018F6B2-1D3C-1EC5-3464-B4C0220D0D11"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B45256EF-8F54-860A-E88B-A8CCF264DDEA" name="FK_TB_RESI_TB_PKG">
+<ind_PK_UK id="B45256EF-8F54-860A-E88B-A8CCF264DDEA" name="FK_TB_RESI_TB_PCT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:51:04 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -125,7 +125,7 @@
 <colUsage columnID="F4F8E25E-6242-7CC6-FE01-4C84ACA60618"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C940D07D-6CB0-B527-B669-41B764AC402F" name="FK_TB_EMP_TB_PKG">
+<ind_PK_UK id="C940D07D-6CB0-B527-B669-41B764AC402F" name="FK_TB_EMP_TB_PCT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 15:07:06 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

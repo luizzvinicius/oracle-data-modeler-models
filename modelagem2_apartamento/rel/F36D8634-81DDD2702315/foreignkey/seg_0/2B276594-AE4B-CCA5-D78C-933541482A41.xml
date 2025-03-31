@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B276594-AE4B-CCA5-D78C-933541482A41" containerWithKeyObject="427E65E2-7A53-DCF0-F8AF-6D9851872BBC" localFKIndex="B45256EF-8F54-860A-E88B-A8CCF264DDEA" name="FK_TB_RESI_TB_PKG">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B276594-AE4B-CCA5-D78C-933541482A41" containerWithKeyObject="427E65E2-7A53-DCF0-F8AF-6D9851872BBC" localFKIndex="B45256EF-8F54-860A-E88B-A8CCF264DDEA" name="FK_TB_RESI_TB_PCT">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:51:04 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<referredTableLongName>SCH_PORTARIA.TB_RESIDENT</referredTableLongName>
+<referredTableLongName>SCH_PORTARIA.TB_RESIDENTES</referredTableLongName>
 <deleteRule>CASCADE</deleteRule>
 <referredTableID>48BF3BC8-15CA-53B2-1E40-6FF54D8F637C</referredTableID>
 <keyObject>DA54A032-3ECE-41C3-FA61-0B39D5F3E095</keyObject>
 <referredKeyID>DA54A032-3ECE-41C3-FA61-0B39D5F3E095</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id</refColNames>
+<refColNames>resi_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48BF3BC8-15CA-53B2-1E40-6FF54D8F637C" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_RESIDENTS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48BF3BC8-15CA-53B2-1E40-6FF54D8F637C" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_RESIDENTES">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:37:46 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="0A025158-06FF-1275-70F8-662AFAD3FECA">
+<Column name="resi_id" id="0A025158-06FF-1275-70F8-662AFAD3FECA">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:39:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -21,9 +21,9 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SEQ_TB_RESI_ID</autoIncrementSequenceName>
-<notNullConstraintName>NN_TB_RESI_ID</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_id</notNullConstraintName>
 </Column>
-<Column name="name" id="96E9800B-6607-AB32-F54B-1B1E196A53E8">
+<Column name="resi_nome" id="96E9800B-6607-AB32-F54B-1B1E196A53E8">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:39:51 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -33,9 +33,9 @@
 <dataTypeSize>100 BYTE</dataTypeSize>
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_name</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_nome</notNullConstraintName>
 </Column>
-<Column name="cpf" id="DBA05637-439A-042F-D520-C831E4AAA0B1">
+<Column name="resi_cpf" id="DBA05637-439A-042F-D520-C831E4AAA0B1">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:40:14 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -45,9 +45,9 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_cpf</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_cpf</notNullConstraintName>
 </Column>
-<Column name="phone" id="1B0C94BB-B515-D1FB-1B6C-8CE25876C68F">
+<Column name="resi_telefone" id="1B0C94BB-B515-D1FB-1B6C-8CE25876C68F">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:40:41 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -57,12 +57,12 @@
 <dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_phone</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_telefone</notNullConstraintName>
 </Column>
-<Column name="status" id="C026F345-C115-92C8-95C8-E45101FA84E6">
+<Column name="resi_status" id="C026F345-C115-92C8-95C8-E45101FA84E6">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:41:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[status pode ser A/I (ativo ou inativo)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[status pode ser A/I (ativo | inativo)]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,9 +70,9 @@
 <dataTypeSize>1 BYTE</dataTypeSize>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_status</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_status</notNullConstraintName>
 </Column>
-<Column name="created_at" id="42D435C7-8301-4671-18B6-F6737E7D83F1">
+<Column name="resi_data_criacao" id="42D435C7-8301-4671-18B6-F6737E7D83F1">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:41:29 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -81,9 +81,9 @@
 <domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_created_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_data_criacao</notNullConstraintName>
 </Column>
-<Column name="updated_at" id="431D9B9B-20F5-E253-C440-392D390F286E">
+<Column name="resi_data_alteracao" id="431D9B9B-20F5-E253-C440-392D390F286E">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:35:32 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -92,9 +92,9 @@
 <domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_updated_at</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_data_alteracao</notNullConstraintName>
 </Column>
-<Column name="TB_APARTAMENTS_bloco" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
+<Column name="TB_APARTAMENTOS_bloco" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-20 19:06:50 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -105,12 +105,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_TB_APARTAMENT_bloco</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_TB_APARTAMENTOS_bloco</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="941D5019-8746-A269-593B-4D51598DBD11" referredColumn="ADE6B026-D0E7-EA6D-EA1A-A6831EB29753"/>
 </associations>
 </Column>
-<Column name="TB_APARTAMENTS_num_apt" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
+<Column name="TB_APARTAMENTOS_num" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-20 19:06:50 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -121,12 +121,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_TB_APT_NUM_APT</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_TB_APARTAMENTOS_num</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="941D5019-8746-A269-593B-4D51598DBD11" referredColumn="B7B2E05A-4349-5B60-9642-191504FE22CD"/>
 </associations>
 </Column>
-<Column name="TB_EMPLOYEES_id" id="A9F52F1B-3DDB-7D75-80D4-AB1096930DB1">
+<Column name="resi_alterado_por" id="A9F52F1B-3DDB-7D75-80D4-AB1096930DB1">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:45:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -137,14 +137,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_EMP_ID</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_alterado_por</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FC70BF95-C3C9-8193-726C-DFB0033211B6" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DA54A032-3ECE-41C3-FA61-0B39D5F3E095" name="PK_TB_RESIDENTS">
+<ind_PK_UK id="DA54A032-3ECE-41C3-FA61-0B39D5F3E095" name="PK_TB_RESIDENTES">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:39:27 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -155,7 +155,7 @@
 <colUsage columnID="0A025158-06FF-1275-70F8-662AFAD3FECA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E6CA93D9-744B-968A-FA8A-B4BEB376EE7E" name="UK_TB_RESI_cpf">
+<ind_PK_UK id="E6CA93D9-744B-968A-FA8A-B4BEB376EE7E" name="UK_TB_RESI_resi_cpf">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 14:18:25 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -165,7 +165,7 @@
 <colUsage columnID="DBA05637-439A-042F-D520-C831E4AAA0B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="61BF5759-6BAF-823B-2129-4B651B22B0F2" name="FK_TB_APT_TB_RESI">
+<ind_PK_UK id="61BF5759-6BAF-823B-2129-4B651B22B0F2" name="FK_TB_APTS_TB_RESI">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-20 19:06:50 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -188,11 +188,11 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="CK_TB_RESIDENT_STATUS" directorySegmentName="seg_0" id="E97A153A-B97C-C932-7E10-0D2EE4D78464">
+<tableCheckConstraint name="CK_TB_RESIDENTES_status" directorySegmentName="seg_0" id="E97A153A-B97C-C932-7E10-0D2EE4D78464">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-28 14:23:56 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<rule><![CDATA[UPPER(status) in ('A','I')]]></rule>
+<rule><![CDATA[UPPER(resi_status) in ('A','I')]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>
