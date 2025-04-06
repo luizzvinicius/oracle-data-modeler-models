@@ -35,6 +35,18 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_PROPTS_prop_nome</notNullConstraintName>
 </Column>
+<Column name="prop_email" id="162CC487-9371-76A6-38B8-588CB856006E">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:36:09 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_PROPTS_prop_email</notNullConstraintName>
+</Column>
 <Column name="prop_cpf" id="5782C9BB-B846-27B2-35F5-E6E3C826A109">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:15:38 UTC</createdTime>
@@ -143,6 +155,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="731F9172-FEE5-A2F7-3907-85EE192CB5A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E88126-9E7A-8A97-A811-F71783AFD475" name="UK_TB_PROPTS_email">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:36:58 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="162CC487-9371-76A6-38B8-588CB856006E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A101B97F-78F6-1ECC-C3C1-D545E13BAFE7" name="FK_TB_EMP_TB_PROPTS">

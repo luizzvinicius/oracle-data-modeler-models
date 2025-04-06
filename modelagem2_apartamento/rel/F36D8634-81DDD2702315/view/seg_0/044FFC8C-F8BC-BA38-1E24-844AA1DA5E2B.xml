@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="044FFC8C-F8BC-BA38-1E24-844AA1DA5E2B" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="VW_RESIDENTES_CRIANCA">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:44:29 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT r.resi_id, r.resi_nome, r.resi_telefone, r.TB_APARTAMENTOS_bloco, 
+r.TB_APARTAMENTOS_num
+FROM SCH_PORTARIA.TB_RESIDENTES r
+WHERE (CURRENT_DATE - r.resi_data_nascimento) < 18 AND
+resi_status = 'A';]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_id" id="4842E883-4BAF-E9F0-1825-D11FAB0A6906">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:50:02 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>resi_id</headerAlias>
+<reference>false</reference>
+<referencedColumn>0A025158-06FF-1275-70F8-662AFAD3FECA</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_nome" id="A3BA44BF-9D3A-238B-F048-162B7BAAF74C">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:50:02 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>resi_nome</headerAlias>
+<reference>false</reference>
+<referencedColumn>96E9800B-6607-AB32-F54B-1B1E196A53E8</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_telefone" id="72F3D9A5-6AB5-1D16-F305-61F87D976792">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:50:02 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (11 BYTE)</dataType>
+<headerAlias>resi_telefone</headerAlias>
+<reference>false</reference>
+<referencedColumn>1B0C94BB-B515-D1FB-1B6C-8CE25876C68F</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENTOS_bloco" id="0C94D180-1C42-C538-6694-42A9AD100CEB">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:50:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (2 BYTE)</dataType>
+<headerAlias>TB_APARTAMENTOS_bloco</headerAlias>
+<reference>false</reference>
+<referencedColumn>013B1B10-C37D-84A1-2122-0FD4FD246920</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TB_APARTAMENTOS_num" id="7532BCF6-11A5-6674-8BD9-560C021DF48A">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:50:34 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (3 BYTE)</dataType>
+<headerAlias>TB_APARTAMENTOS_num</headerAlias>
+<reference>false</reference>
+<referencedColumn>D6F9C781-F6CC-00D1-201A-1701533C82C5</referencedColumn>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="48BF3BC8-15CA-53B2-1E40-6FF54D8F637C">
+<container>true</container>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0A025158-06FF-1275-70F8-662AFAD3FECA">
+<columnName>resi_id</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="96E9800B-6607-AB32-F54B-1B1E196A53E8">
+<columnName>resi_nome</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1B0C94BB-B515-D1FB-1B6C-8CE25876C68F">
+<columnName>resi_telefone</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
+<columnName>TB_APARTAMENTOS_bloco</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D6F9C781-F6CC-00D1-201A-1701533C82C5">
+<columnName>TB_APARTAMENTOS_num</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C026F345-C115-92C8-95C8-E45101FA84E6">
+<columnName>resi_status</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AC89017B-31D6-8A0A-EDDA-F6E0CD461E4D">
+<columnName>resi_data_nascimento</columnName>
+<schema>SCH_PORTARIA</schema>
+<tableName>TB_RESIDENTES</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

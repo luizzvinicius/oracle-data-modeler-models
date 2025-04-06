@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2521457-3637-C6A9-B8FA-EBCF42559448" schemaObject="1D82DB79-3717-199E-C6CD-C271439D77CB" name="TB_RESERVAS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:33:14 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>TB_RSV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rsv_id" id="35EFAEC1-C69D-7DD9-D740-B30352B9CD90">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:36:25 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_id</notNullConstraintName>
+</Column>
+<Column name="rsv_local" id="ADE2971B-CD27-2868-7DA7-9ED76A9740EC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:36:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[local pode ser (quadra | salao de festas)]]></commentInRDBMS>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_local</notNullConstraintName>
+</Column>
+<Column name="rsv_data_inicio" id="BED47BF0-44E5-F002-9425-4DAA7BA4DAD0">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:44:42 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_data_inicio</notNullConstraintName>
+</Column>
+<Column name="rsv_data_fim" id="3676D2E6-D2A0-D252-2192-FD83ED8AC53D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:48:36 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_data_fim</notNullConstraintName>
+</Column>
+<Column name="rsv_data_criacao" id="E4E6952C-9011-86A7-E4F6-0627AFF0BD0D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:58:45 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_data_criacao</notNullConstraintName>
+</Column>
+<Column name="rsv_data_atualizacao" id="7FD0053D-F577-885B-285E-E79E40208B7D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:58:45 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_rsv_data_atualizacao</notNullConstraintName>
+</Column>
+<Column name="TB_RESIDENTES_resi_id" id="C986E78E-AA59-DD31-A338-067A8B45BDBF">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:54:54 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_TB_RESIDENTES_resi_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C2EC8B92-71CA-9692-AE1E-E2863D0CE355" referredColumn="0A025158-06FF-1275-70F8-662AFAD3FECA"/>
+</associations>
+</Column>
+<Column name="TB_EMPREGADOS_emp_id" id="6A5B3BE8-4BC2-49BE-56DA-1E44A6719E1B">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:56:08 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RSV_res_altado_por</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A5634C55-8AE4-D44D-30C1-69BEEA4F74E1" referredColumn="FE7D19CA-E031-7560-95DD-56124A5F98AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF349F66-C41E-A360-F47D-CC1AD8233235" name="PK_TB_RESERVAS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:36:25 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35EFAEC1-C69D-7DD9-D740-B30352B9CD90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4437E6F-9D6D-8D36-8F20-8CF555BAC55D" name="UK_TB_RSV_rsv_data_inicio">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:51:29 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BED47BF0-44E5-F002-9425-4DAA7BA4DAD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3ED17DE-2641-67E9-E8AB-62E49BCA23F8" name="UK_TB_RSV_rsv_data_fim">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:49:59 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3676D2E6-D2A0-D252-2192-FD83ED8AC53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFC7FEF6-01D0-B75B-2592-EAB27FC85E35" name="FK_TB_RESI_TB_RSV">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:54:54 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C986E78E-AA59-DD31-A338-067A8B45BDBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F5F662E-914C-E6CE-FC30-ACFBCA705643" name="FK_TB_EMP_TB_RSV">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-04 14:56:08 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5B3BE8-4BC2-49BE-56DA-1E44A6719E1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

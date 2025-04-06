@@ -35,6 +35,18 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_RESI_resi_nome</notNullConstraintName>
 </Column>
+<Column name="resi_email" id="3505B5B1-2312-2382-7627-4F12697C2E6F">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:38:38 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RESI_Column_11</notNullConstraintName>
+</Column>
 <Column name="resi_cpf" id="DBA05637-439A-042F-D520-C831E4AAA0B1">
 <createdBy>vinic</createdBy>
 <createdTime>2025-02-16 13:40:14 UTC</createdTime>
@@ -71,6 +83,16 @@
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_RESI_resi_status</notNullConstraintName>
+</Column>
+<Column name="resi_data_nascimento" id="AC89017B-31D6-8A0A-EDDA-F6E0CD461E4D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-03-31 16:41:48 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="resi_data_criacao" id="42D435C7-8301-4671-18B6-F6737E7D83F1">
 <createdBy>vinic</createdBy>
