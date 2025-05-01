@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="SINDICO" directorySegmentName="seg_0" id="D6CCDE70-3703-0E41-9307-D6B1CEFEE6DC">
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_SINDICO" directorySegmentName="seg_0" id="D6CCDE70-3703-0E41-9307-D6B1CEFEE6DC">
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-12 12:08:05 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<password>1563ED743317BC271D25AF329A8CA2EAF05765665B7000331087D5DC68A483DA56</password>
+<password>15E7D47A6ACC17C61225BD848446DFF124C0CF634306042B1E138C8E70F0E48DC7</password>
 <privileges>CONNECT, CREATE SESSION</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="DABA6B93-0DF2-9D87-7453-361102157AA5">

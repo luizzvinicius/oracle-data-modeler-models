@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="PORTEIRO" directorySegmentName="seg_0" id="F4D3E0CA-7817-5648-AF49-6E5AAC0DE5CE">
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RO_PORTEIRO" directorySegmentName="seg_0" id="F4D3E0CA-7817-5648-AF49-6E5AAC0DE5CE">
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-12 12:08:17 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<password>154B6029CB68C6945F83E76324454E68F871D647440A6880EA01C6A04FAD54E6B1</password>
+<password>153C03DBC7E590AB0857BDC11B0651759D782AD75C740CFA94E1C76BF3EB25EA2F</password>
 <privileges>CONNECT, CREATE SESSION</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="F7BD5050-03F3-391B-D343-496842143C07">
