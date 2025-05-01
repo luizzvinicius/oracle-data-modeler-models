@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="luiz" directorySegmentName="seg_0" id="D0565092-498F-FBB9-CA46-29A2BF5692FC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:27:50 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<defTableSpace>41E282F9-EFC5-A8F2-B709-3A53993CFFEB</defTableSpace>
+<identifier>151C2D4A8B9DDF5CBB9B3B3FB2CE97D29F64A642F4B2D13E355F75F4B1136ADECC</identifier>
+<roles>D6CCDE70-3703-0E41-9307-D6B1CEFEE6DC</roles>
+</UserOraclev10g>

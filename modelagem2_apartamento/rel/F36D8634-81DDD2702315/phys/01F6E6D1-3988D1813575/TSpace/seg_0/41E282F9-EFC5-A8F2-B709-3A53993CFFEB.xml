@@ -4,9 +4,10 @@
 <createdTime>2025-03-22 13:10:42 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <emLocalSubtype>UNIFORM</emLocalSubtype>
-<emUniformSize>512</emUniformSize>
+<emUniformSize>256</emUniformSize>
 <extentManagement>LOCAL</extentManagement>
 <blockSize>8</blockSize>
+<segmentManagement>AUTO</segmentManagement>
 <fileType>BIGFILE</fileType>
 <dataFiles>
 <DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="TBS_PORTARIA_001" id="B7661853-B4D8-F940-DB62-4736A30E21C1">
@@ -15,10 +16,9 @@
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <autoextend>ON</autoextend>
 <fileName>TBS_PORTARIA_001</fileName>
-<maxSize>32</maxSize>
-<maxSizeUnit>G</maxSizeUnit>
+<maxSizeUnit></maxSizeUnit>
 <measureUnit>G</measureUnit>
-<nextBlockSize>8</nextBlockSize>
+<nextBlockSize>128</nextBlockSize>
 <nextBlockSizeUnit>M</nextBlockSizeUnit>
 <reuse>NO</reuse>
 <size>1</size>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="SINDICO" directorySegmentName="seg_0" id="D6CCDE70-3703-0E41-9307-D6B1CEFEE6DC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:08:05 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<password>1563ED743317BC271D25AF329A8CA2EAF05765665B7000331087D5DC68A483DA56</password>
+<privileges>CONNECT, CREATE SESSION</privileges>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="DABA6B93-0DF2-9D87-7453-361102157AA5">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:24:23 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>CD722C1D-6E99-AD84-5548-D31D9F0331B3</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions12" id="D2F98179-F222-3D47-3114-8B390A35D9E1">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:24:23 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>044FFC8C-F8BC-BA38-1E24-844AA1DA5E2B</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions15" id="60919B4A-8246-F218-38B0-733DCE3825F0">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:27:07 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>678391A5-435E-36E0-E0D0-9E3B26061A2E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="9567EE28-1998-F5DC-6B9B-EE6B57B4D422">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>F42DB8CC-5D2F-BA57-0A31-C170CE678E5E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="27A6379A-6E9B-32CD-021A-EB200083C79D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>156CEFAF-5289-E327-EEB3-38119C13E910</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="656DC7E9-C42E-1582-CFA1-E09396056C0C">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>427E65E2-7A53-DCF0-F8AF-6D9851872BBC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="3D52801F-94A3-8589-5CF8-89C67F91EA61">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>58010827-E2A9-896B-317C-5BA075D19BFE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="483125FB-068B-875B-472C-B66B3044EB05">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>D2521457-3637-C6A9-B8FA-EBCF42559448</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions7" id="536D7120-13D6-9DEA-08E2-555156CCE010">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>48BF3BC8-15CA-53B2-1E40-6FF54D8F637C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions8" id="A3BC3BBF-1EDE-999D-7E03-DB39C15AFC1D">
+<createdBy>vinic</createdBy>
+<createdTime>2025-04-12 12:20:00 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
+<table>74B434C5-542E-33CE-03E6-2BF9B66ACEDF</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>
