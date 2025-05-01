@@ -15,7 +15,7 @@
 <createdTime>2025-03-22 13:49:26 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <autoextend>ON</autoextend>
-<fileName>TBS_PORTARIA_001</fileName>
+<fileName>/u01/app/oracle/oradata/ORCLCDB/orcl/TBS_PORTARIA_001.dat</fileName>
 <maxSizeUnit></maxSizeUnit>
 <measureUnit>G</measureUnit>
 <nextBlockSize>128</nextBlockSize>

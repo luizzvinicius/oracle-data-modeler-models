@@ -46,18 +46,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_PCT_pct_data_recebimento</notNullConstraintName>
 </Column>
-<Column name="pct_data_retirada" id="69576FFB-486B-3EC4-041F-52E6B68AFCFA">
-<createdBy>vinic</createdBy>
-<createdTime>2025-03-19 12:34:27 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT046</logicalDatatype>
-<dataTypePrecision>0</dataTypePrecision>
-<ownDataTypeParameters>,0,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_PCT_pct_data_retirada</notNullConstraintName>
-</Column>
 <Column name="pct_assinatura" id="79EE0464-33DE-04E0-5837-720BFC5FBB93">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:40:50 UTC</createdTime>
