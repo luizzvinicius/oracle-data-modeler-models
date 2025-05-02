@@ -45,7 +45,7 @@
 <dataTypeSize>255 BYTE</dataTypeSize>
 <ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_Column_11</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_email</notNullConstraintName>
 </Column>
 <Column name="resi_cpf" id="DBA05637-439A-042F-D520-C831E4AAA0B1">
 <createdBy>vinic</createdBy>
@@ -93,6 +93,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_TB_RESI_resi_data_nascimento</notNullConstraintName>
 </Column>
 <Column name="resi_data_criacao" id="42D435C7-8301-4671-18B6-F6737E7D83F1">
 <createdBy>vinic</createdBy>
@@ -210,7 +211,7 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="CK_TB_RESIDENTES_status" directorySegmentName="seg_0" id="E97A153A-B97C-C932-7E10-0D2EE4D78464">
+<tableCheckConstraint name="CK_TB_RESIDENTES" directorySegmentName="seg_0" id="E97A153A-B97C-C932-7E10-0D2EE4D78464">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-28 14:23:56 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

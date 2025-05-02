@@ -72,18 +72,11 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_TB_RSV_rsv_data_inicio" id="B4437E6F-9D6D-8D36-8F20-8CF555BAC55D">
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CK_TB_RESERVAS_rsv_local" id="015A6A74-1267-404B-BCA1-2D8670A27689">
 <createdBy>vinic</createdBy>
-<createdTime>2025-05-01 12:09:33 UTC</createdTime>
+<createdTime>2025-05-02 23:24:05 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_TB_RSV_rsv_data_fim" id="C3ED17DE-2641-67E9-E8AB-62E49BCA23F8">
-<createdBy>vinic</createdBy>
-<createdTime>2025-05-01 12:09:33 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-</uniqueKeys>
+</TableCheckConstraint>
+</tableCheckConstraints>
 </TableProxyOraclev20c>

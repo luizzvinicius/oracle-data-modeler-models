@@ -50,6 +50,7 @@
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-19 12:40:50 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

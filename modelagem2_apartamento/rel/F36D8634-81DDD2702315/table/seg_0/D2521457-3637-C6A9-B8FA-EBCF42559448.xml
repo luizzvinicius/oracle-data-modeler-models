@@ -25,13 +25,13 @@
 <Column name="rsv_local" id="ADE2971B-CD27-2868-7DA7-9ED76A9740EC">
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-04 14:36:25 UTC</createdTime>
-<commentInRDBMS><![CDATA[local pode ser (quadra | salao de festas)]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[local pode ser (quadra | salao)]]></commentInRDBMS>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_RSV_rsv_local</notNullConstraintName>
 </Column>
@@ -128,26 +128,6 @@
 <colUsage columnID="35EFAEC1-C69D-7DD9-D740-B30352B9CD90"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B4437E6F-9D6D-8D36-8F20-8CF555BAC55D" name="UK_TB_RSV_rsv_data_inicio">
-<createdBy>vinic</createdBy>
-<createdTime>2025-04-04 14:51:29 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BED47BF0-44E5-F002-9425-4DAA7BA4DAD0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C3ED17DE-2641-67E9-E8AB-62E49BCA23F8" name="UK_TB_RSV_rsv_data_fim">
-<createdBy>vinic</createdBy>
-<createdTime>2025-04-04 14:49:59 UTC</createdTime>
-<ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3676D2E6-D2A0-D252-2192-FD83ED8AC53D"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="BFC7FEF6-01D0-B75B-2592-EAB27FC85E35" name="FK_TB_RESI_TB_RSV">
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-04 14:54:54 UTC</createdTime>
@@ -169,4 +149,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_TB_RESERVAS_rsv_local" directorySegmentName="seg_0" id="015A6A74-1267-404B-BCA1-2D8670A27689">
+<createdBy>vinic</createdBy>
+<createdTime>2025-05-02 23:24:05 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<rule><![CDATA[UPPER(rsv_local) in ('QUADRA', 'SALAO')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>
