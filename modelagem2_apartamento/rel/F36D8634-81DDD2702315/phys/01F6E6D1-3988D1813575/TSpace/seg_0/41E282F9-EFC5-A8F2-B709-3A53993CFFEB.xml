@@ -21,7 +21,7 @@
 <nextBlockSize>128</nextBlockSize>
 <nextBlockSizeUnit>M</nextBlockSizeUnit>
 <reuse>NO</reuse>
-<size>1</size>
+<size>10</size>
 </DataFile>
 </dataFiles>
 </TableSpaceOraclev10g>
