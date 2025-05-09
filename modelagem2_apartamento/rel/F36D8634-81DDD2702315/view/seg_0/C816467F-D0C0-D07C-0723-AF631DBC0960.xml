@@ -6,6 +6,7 @@
 <ordsAlias>view_5</ordsAlias>
 <userDefined>true</userDefined>
 <userDefinedSQL><![CDATA[SELECT * FROM TB_RESIDENTES WHERE resi_status = 'A']]></userDefinedSQL>
+<validSQL>false</validSQL>
 <parsed>true</parsed>
 <viewElements>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_id" id="A46AB74B-999F-4315-C00A-19EF51FDFE1D">
@@ -96,7 +97,7 @@
 <referencedColumn>42D435C7-8301-4671-18B6-F6737E7D83F1</referencedColumn>
 <table>48BF3BC8-15CA-53B2-1E40-6FF54D8F637C</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_data_alteracao" id="6D809A05-7DF1-3A86-BDCF-D1E66F7B5BD2">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_data_atualizacao" id="6D809A05-7DF1-3A86-BDCF-D1E66F7B5BD2">
 <createdBy>vinic</createdBy>
 <createdTime>2025-05-02 21:17:07 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>

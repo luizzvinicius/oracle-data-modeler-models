@@ -106,7 +106,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NN_TB_RESI_resi_data_criacao</notNullConstraintName>
 </Column>
-<Column name="resi_data_alteracao" id="431D9B9B-20F5-E253-C440-392D390F286E">
+<Column name="resi_data_atualizacao" id="431D9B9B-20F5-E253-C440-392D390F286E">
 <createdBy>vinic</createdBy>
 <createdTime>2025-03-20 14:35:32 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
@@ -115,7 +115,7 @@
 <domain>122661EB-5E2E-CD14-E285-9D7C719ADA6C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_TB_RESI_resi_data_alteracao</notNullConstraintName>
+<notNullConstraintName>NN_TB_RESI_resi_data_atualizacao</notNullConstraintName>
 </Column>
 <Column name="TB_APARTAMENTOS_bloco" id="013B1B10-C37D-84A1-2122-0FD4FD246920">
 <createdBy>vinic</createdBy>
