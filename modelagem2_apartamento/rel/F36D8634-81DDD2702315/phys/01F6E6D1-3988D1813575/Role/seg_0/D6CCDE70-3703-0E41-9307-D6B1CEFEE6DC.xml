@@ -3,7 +3,7 @@
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-12 12:08:05 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<password>15E7D47A6ACC17C61225BD848446DFF124C0CF634306042B1E138C8E70F0E48DC7</password>
+<password>15B8EA9AFCC1656ADECC5D63E3090D57DFE5FBB89CD817DBDEAFAC77C6974EEDE3</password>
 <privileges>CONNECT, CREATE SESSION</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="DABA6B93-0DF2-9D87-7453-361102157AA5">
@@ -33,6 +33,27 @@
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <privileges>INSERT, UPDATE, SELECT, DELETE</privileges>
 <table>F42DB8CC-5D2F-BA57-0A31-C170CE678E5E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions25" id="657B7A71-1999-DE9A-47D0-319AD940A083">
+<createdBy>vinic</createdBy>
+<createdTime>2025-06-04 02:24:08 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>F67E7742-C744-8C46-0274-3093D56F09E4</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions26" id="21595E9B-A329-0CE1-8393-1F77FBB45E40">
+<createdBy>vinic</createdBy>
+<createdTime>2025-06-04 02:24:08 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>EE8C0D92-08AB-AB89-95BB-C674F08E9535</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions27" id="68439646-BC68-096D-BF19-51C7EC2D90B0">
+<createdBy>vinic</createdBy>
+<createdTime>2025-06-04 02:24:08 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>C816467F-D0C0-D07C-0723-AF631DBC0960</view>
 </Permission>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="27A6379A-6E9B-32CD-021A-EB200083C79D">
 <createdBy>vinic</createdBy>

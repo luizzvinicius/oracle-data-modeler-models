@@ -6,7 +6,6 @@
 <ordsAlias>view_5</ordsAlias>
 <userDefined>true</userDefined>
 <userDefinedSQL><![CDATA[SELECT * FROM TB_RESIDENTES WHERE resi_status = 'A']]></userDefinedSQL>
-<validSQL>false</validSQL>
 <parsed>true</parsed>
 <viewElements>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="resi_id" id="A46AB74B-999F-4315-C00A-19EF51FDFE1D">
@@ -103,7 +102,7 @@
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>TIMESTAMP (0) WITH TIME ZONE</dataType>
-<headerAlias>resi_data_alteracao</headerAlias>
+<headerAlias>resi_data_atualizacao</headerAlias>
 <reference>false</reference>
 <referencedColumn>431D9B9B-20F5-E253-C440-392D390F286E</referencedColumn>
 <table>48BF3BC8-15CA-53B2-1E40-6FF54D8F637C</table>
@@ -189,7 +188,7 @@
 <tableName>TB_RESIDENTES</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="431D9B9B-20F5-E253-C440-392D390F286E">
-<columnName>resi_data_alteracao</columnName>
+<columnName>resi_data_atualizacao</columnName>
 <schema>SCH_PORTARIA</schema>
 <tableName>TB_RESIDENTES</tableName>
 </UsedObject>

@@ -4,7 +4,7 @@
 <createdTime>2025-03-22 13:10:42 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <emLocalSubtype>UNIFORM</emLocalSubtype>
-<emUniformSize>256</emUniformSize>
+<emUniformSize>128</emUniformSize>
 <extentManagement>LOCAL</extentManagement>
 <blockSize>8</blockSize>
 <segmentManagement>AUTO</segmentManagement>
@@ -18,10 +18,10 @@
 <fileName>/u01/app/oracle/oradata/ORCLCDB/orcl/TBS_PORTARIA_001.dat</fileName>
 <maxSizeUnit></maxSizeUnit>
 <measureUnit>G</measureUnit>
-<nextBlockSize>128</nextBlockSize>
+<nextBlockSize>16</nextBlockSize>
 <nextBlockSizeUnit>M</nextBlockSizeUnit>
 <reuse>NO</reuse>
-<size>10</size>
+<size>5</size>
 </DataFile>
 </dataFiles>
 </TableSpaceOraclev10g>

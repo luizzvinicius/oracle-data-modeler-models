@@ -3,7 +3,7 @@
 <createdBy>vinic</createdBy>
 <createdTime>2025-04-12 12:08:17 UTC</createdTime>
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
-<password>153C03DBC7E590AB0857BDC11B0651759D782AD75C740CFA94E1C76BF3EB25EA2F</password>
+<password>1526B1D2DD5379CB88C0CF18AA903CDB3174F34A482796296D55998F2ADECD71B4</password>
 <privileges>CONNECT, CREATE SESSION</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="F7BD5050-03F3-391B-D343-496842143C07">
@@ -33,6 +33,20 @@
 <ownerDesignName>modelagem2_apartamento</ownerDesignName>
 <privileges>SELECT</privileges>
 <table>F42DB8CC-5D2F-BA57-0A31-C170CE678E5E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions21" id="700C07C4-7C44-BE95-EBE2-6E4FAF389883">
+<createdBy>vinic</createdBy>
+<createdTime>2025-06-04 02:23:29 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>EE8C0D92-08AB-AB89-95BB-C674F08E9535</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions22" id="B40FF520-14F4-B095-187B-B59BE4414F8E">
+<createdBy>vinic</createdBy>
+<createdTime>2025-06-04 02:23:29 UTC</createdTime>
+<ownerDesignName>modelagem2_apartamento</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>C816467F-D0C0-D07C-0723-AF631DBC0960</view>
 </Permission>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="CF188D74-74D9-5C6C-7177-957668DB55AF">
 <createdBy>vinic</createdBy>
